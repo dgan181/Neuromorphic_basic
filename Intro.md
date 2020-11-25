@@ -24,11 +24,12 @@ The most common type of junction between neurons is a chemical synapse, where th
 
 Additionally, synapses can either be excitatory or inhibitory in nature. The function of an excitatory synapse is to increase the membrane potential of the post-synaptic neuron while that of an inhibitory synapse is to decrease it. Biologically, there are many factors that determine whether a synapse behaves as an excitatory or inhibitory synapse. These include: the type of neurotransmitters that are channeled, the type of receptors that receive these chemicals as well as the concentration of these chemicals. It is possible for a synapse to switch its function depending on these factors. It has been observed that excitatory synapses are always greater in number than inhibitory synapses .
 
-Mathematically, in a biological network, the activity of a post-synaptic neuron, \(S_{j}\) is given as
+Mathematically, in a biological network, the activity of a post-synaptic neuron, ``S_{j}`` is given as
 
-\[\begin{aligned}
-S_{j}(t + 1) \propto h \Big(\sum_{i} w_{ij} S_{i}(t) \Big) \:,\end{aligned}\]
-
+```math
+\begin{aligned}
+S_{j}(t + 1) \propto h \Big(\sum_{i} w_{ij} S_{i}(t) \Big) \:,\end{aligned}
+```
 where \(w_{ij}\) signifies the weight of the synapse and \(h\) is an arbitrary function. The weight of a synapse indicates its behaviour:
 
 \[\begin{aligned}
